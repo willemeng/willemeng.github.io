@@ -1,5 +1,5 @@
 
-- VLScene: Vision-Language Guidance Distillation for Camera-based 3D Semantic Scene Completion. <strong>Meng Wang</strong>, Huilong Pi*, Ruihui Li, Yunchuan Qin, Zhuo Tang*, Kenli Li. AAAI-2025(CCF-A).
+- VLScene: Vision-Language Guidance Distillation for Camera-based 3D Semantic Scene Completion. <strong>Meng Wang</strong>, Huilong Pi*, Ruihui Li, Yunchuan Qin, Zhuo Tang*, Kenli Li. AAAI-2025(<strong>CCF-A</strong>).
 
 - AWDepth: Monocular Depth Estimation for Adverse Weather via Masked Encoding. <strong>Meng Wang</strong>, Yunchuan Qin*, Ruihui Li*, Zhizhong Liu, Zhuo Tang, Kenli Li. IEEE Transaction on Industrial Informatics(TII, <strong>SCI-1</strong>), 2024.
 
