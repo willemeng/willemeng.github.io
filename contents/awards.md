@@ -1,13 +1,3 @@
-- National Scholarship of Graduate Student, 2024.
+- the China Association for Science and Technology Young Talent Support Project Doctoral Special Program (CCF), 2025.
 
-- First-prize Scholarship of CUMT, 2024.
-
-- First-prize Scholarship of CUMT, 2023.
-
-- Freshman Scholarship of CUMT, 2022.
-
-- Excellent Graduation Project of Jiangsu Province, 2022.
-
-- First-prize Enterprise Scholarship of CUMT, 2020.
-
-- First-prize Scholarship of CUMT, 2019.
+- the Postgraduate Scientific Research Innovation Project of Hunan Province, 2024.
