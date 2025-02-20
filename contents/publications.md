@@ -1,3 +1,4 @@
+
 - Learning Temporal 3D Semantic Scene Completion via Optical Flow Guidance. <strong>Meng Wang</strong>, Fan Wu, Ruihui Li, Yunchuan Qin, Zhuo Tang, Kenli Li. Arixv, 2025.
 
 - Vision-based 3D Semantic Scene Completion via Capture Dynamic Representations. <strong>Meng Wang</strong>, Fan Wu, Yunchuan Qin, Ruihui Li, Zhuo Tang, Kenli Li. Knowledge-Based Systems, <strong>Under Review</strong>.
