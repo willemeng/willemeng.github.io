@@ -19,8 +19,8 @@ B.E., School of Computer, University of South China, 2016—2020.
 Computer Vision, Autonomous Driving, 3D Vision, Depth Estimation.
 
 #### News!!!
-[01/2025] One paper was accepted by TCSVT 2025.
+[02/2025] One paper was accepted by AAAI 2025(Oral).
 
-[12/2024] One paper was accepted by AAAI 2025.
+[01/2025] One paper was accepted by TCSVT 2025.
 
 [12/2024] Selected into the China Association for Science and Technology Young Talent Support Project Doctoral Special Program.
