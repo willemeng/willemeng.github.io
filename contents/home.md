@@ -18,6 +18,8 @@ B.E., School of Computer, University of South China, 2016—2020.
 Computer Vision, Autonomous Driving, 3D Vision, Depth Estimation.
 
 #### News!!!
+[09/2025] One paper was accepted by NeurIPS-2025 **(CCF-A)**.
+
 [02/2025] One paper was accepted by AAAI-2025 **(CCF-A Oral Top4.63%)**.
 
 [01/2025] One paper was accepted by TCSVT 2025 **(SCI-1)**.
