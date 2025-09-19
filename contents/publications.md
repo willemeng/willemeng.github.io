@@ -7,4 +7,8 @@
 
 - AWDepth: Monocular Depth Estimation for Adverse Weather via Masked Encoding. <strong>Meng Wang</strong>, Yunchuan Qin*, Ruihui Li*, Zhizhong Liu, Zhuo Tang, Kenli Li. IEEE Transaction on Industrial Informatics(TII, <strong>SCI-1</strong>), 2024.
 
-- Vision-based 3D Semantic Scene Completion via Capture Dynamic Representations. <strong>Meng Wang</strong>, Fan Wu, Yunchuan Qin, Ruihui Li, Zhuo Tang, Kenli Li. Knowledge-Based Systems, <strong>Under Review</strong>.
+- Vision-based 3D Semantic Scene Completion via Capture Dynamic Representations. <strong>Meng Wang</strong>, Fan Wu, Yunchuan Qin, Ruihui Li, Zhuo Tang, Kenli Li. Knowledge-Based Systems, <strong>Under Revision</strong>.
+
+- Head-Level Mechanistic Attribution for Hallucination Control: Training-Free Counteractive Pruning in LVLMs. WuLiyan, Fan Wu, <strong>Meng Wang</strong>, Lanfeng Wu, Yujie Xue, Dongchen Wu. ICLR 2026(CCF-A), Under Review;
+
+- Progressively Learning Context via Triplane for Camera-based Semantic Scene Completion. Yujie Xue, Fan Wu, Ruihui Li, <strong>Meng Wang</strong>, Kenli Li. To be submitted;
