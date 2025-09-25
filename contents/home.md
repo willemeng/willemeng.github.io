@@ -2,7 +2,7 @@
 
 [![willem](https://img.shields.io/badge/willemeng-github-blue?logo=github)](https://github.com/willemeng)
 
-He is currently working toward the PhD degree in the College of Computer Science and Electronic Engineering of Hunan University. He received a bachelor's degree in software engineering from the University of South China in 2020. His research interests mainly include autonomous driving perception, 3D scene perception, and semantic scene completion, robots.
+I am currently working toward the PhD degree in the College of Computer Science and Electronic Engineering of Hunan University. I received a bachelor's degree in software engineering from the University of South China in 2020. My research interests mainly include autonomous driving perception, 3D scene perception, and semantic scene completion, robots. Served as reviewer for many top journals and conferences such as TCSVT, TII, TMM, ICLR, AAAI, NeurIPS, and ICASSP.
 
 #### Email
 willem[at]hnu.edu.cn
@@ -19,6 +19,8 @@ Computer Vision, Autonomous Driving, 3D Vision, Depth Estimation.
 
 #### News!!!
 [09/2025] One paper was accepted by NeurIPS-2025 **(CCF-A)**.
+
+[09/2025] One paper was accepted by KBS 2025 **(SCI-1)**.
 
 [02/2025] One paper was accepted by AAAI-2025 **(CCF-A Oral Top4.63%)**.
 
