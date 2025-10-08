@@ -11,4 +11,4 @@
 
 - Head-Level Mechanistic Attribution for Hallucination Control: Training-Free Counteractive Pruning in LVLMs. WuLiyan, Fan Wu, <strong>Meng Wang</strong>, Lanfeng Wu, Yujie Xue, Dongchen Wu. ICLR 2026(CCF-A), Under Review;
 
-- Progressively Learning Context via Triplane for Camera-based Semantic Scene Completion. Yujie Xue, Fan Wu, Ruihui Li, <strong>Meng Wang</strong>, Kenli Li. To be submitted;
+- Progressively Learning Context via Triplane for Camera-based Semantic Scene Completion. Yujie Xue, Fan Wu, Ruihui Li, <strong>Meng Wang</strong>, Kenli Li. TCSVT, Under Review;
