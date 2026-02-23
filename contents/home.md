@@ -2,7 +2,7 @@
 
 [![willem](https://img.shields.io/badge/willemeng-github-blue?logo=github)](https://github.com/willemeng)
 
-I am currently a postdoctoral researcher at Hunan University. I received my Ph.D. from the College of Computer Science and Electronic Engineering of Hunan University in 2025. My research interests mainly include autonomous driving perception, 3D scene perception, and semantic scene completion, robots. Served as reviewer for many top journals and conferences such as TCSVT, TII, TMM, ICLR, AAAI, NeurIPS, and ICASSP.
+I am currently a postdoctoral researcher at Hunan University. I received my Ph.D. from the College of Computer Science and Electronic Engineering of Hunan University in 2025. My research interests mainly include autonomous driving perception, 3D scene perception, and semantic scene completion, robots. Served as reviewer for journals and conferences such as TCSVT, TII, TMM, ICLR, AAAI, NeurIPS, ICML and CVPR.
 
 #### Email
 willem[at]hnu.edu.cn
@@ -17,6 +17,10 @@ M.E., College of Computer Science and Electronic Engineering, Hunan University, 
 Computer Vision, Autonomous Driving, 3D Vision, Depth Estimation.
 
 #### News!!!
+[02/2026] One paper was accepted by CVPR-2026 **(CCF-A)**.
+
+[02/2026] I received my **Ph.D.** in Computational Science and Technology.
+
 [09/2025] One paper was accepted by NeurIPS-2025 **(CCF-A)**.
 
 [09/2025] One paper was accepted by KBS 2025 **(SCI-1)**.
