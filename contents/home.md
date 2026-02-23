@@ -19,7 +19,7 @@ Computer Vision, Autonomous Driving, 3D Vision, Depth Estimation.
 #### News!!!
 [02/2026] One paper was accepted by CVPR-2026 **(CCF-A)**.
 
-[02/2026] I received my **Ph.D.** in Computational Science and Technology.
+[02/2026] I received my **Ph.D.** in Computer Science and Technology.
 
 [09/2025] One paper was accepted by NeurIPS-2025 **(CCF-A)**.
 
