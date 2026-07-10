@@ -17,15 +17,17 @@ M.E., College of Computer Science and Electronic Engineering, Hunan University, 
 Computer Vision, Autonomous Driving, 3D Vision, Depth Estimation.
 
 #### News!!!
-[02/2026] One paper was accepted by CVPR-2026 **(CCF-A)**.
+[02/2026] One paper was accepted by ACM MM 2026 **(CCF-A)**.
+
+[02/2026] One paper was accepted by CVPR 2026 **(CCF-A)**.
 
 [02/2026] I received my **Ph.D.** in Computer Science and Technology.
 
-[09/2025] One paper was accepted by NeurIPS-2025 **(CCF-A)**.
+[09/2025] One paper was accepted by NeurIPS 2025 **(CCF-A)**.
 
 [09/2025] One paper was accepted by KBS 2025 **(SCI-1)**.
 
-[02/2025] One paper was accepted by AAAI-2025 **(CCF-A Oral Top4.63%)**.
+[02/2025] One paper was accepted by AAAI 2025 **(CCF-A Oral Top4.63%)**.
 
 [01/2025] One paper was accepted by TCSVT 2025 **(SCI-1)**.
 

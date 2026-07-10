@@ -1,3 +1,5 @@
+- 湖南省芙蓉计划青年人才计划, 2026.
+
 - 首届中国科协青年人才托举工程博士生专项计划（中国计算机学会）, the China Association for Science and Technology Young Talent Support Project Doctoral Special Program (CCF), 2025.
 
 - 比亚迪奖学金, 2025.
