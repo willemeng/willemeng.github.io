@@ -24,7 +24,16 @@ python -m http.server 8000
 
 ## 添加论文图片或真实链接
 
-当前论文条目没有配图或论文 URL，因此页面没有虚构缩略图或链接。获得真实资源后，可在 `index.html` 中对应论文条目添加图片和链接。图片文件可放入 `static/assets/img/`，并使用相对仓库根目录的路径引用；论文或项目链接应填写可核验的真实 URL。带图片的条目使用 `has-image` 和 `publication-image` class，样式会自动适配桌面端和移动端。
+部分论文条目已经加入核验过的正式论文链接。其余论文或代码仓库获得真实 URL 后，可在 `index.html` 中对应论文条目添加链接。图片文件可放入 `static/assets/img/`，并使用相对仓库根目录的路径引用；论文或项目链接应填写可核验的真实 URL。带图片的条目使用 `has-image` 和 `publication-image` class，样式会自动适配桌面端和移动端。
+
+论文链接放在论文信息下方，格式如下：
+
+```html
+<div class="publication-links" aria-label="Publication links">
+  <a href="https://example.com/paper" target="_blank" rel="noreferrer">[paper]</a>
+  <a href="https://github.com/example/project" target="_blank" rel="noreferrer">[code]</a>
+</div>
+```
 
 ## 发布
 

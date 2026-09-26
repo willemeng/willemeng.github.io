@@ -156,6 +156,17 @@ h2 {
 .papertitle { display: inline-block; margin-bottom: 3px; color: var(--link); font-weight: 700; }
 .publication-copy > div { margin: 2px 0; }
 
+.publication-links {
+  margin-top: 5px !important;
+  font-size: 13px;
+}
+
+.publication-links a + a::before {
+  content: " ";
+  display: inline-block;
+  width: 10px;
+}
+
 .timeline-item {
   display: grid;
   grid-template-columns: 70px minmax(0, 1fr);
