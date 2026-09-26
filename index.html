@@ -1,177 +1,166 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-    <meta name="description" content="Academic Webpage" />
-    <meta name="author" content="senli1073" />
-    <title id="title"></title>
-
-    <!-- Icon -->
-    <link rel="icon" type="image/x-icon" href="static/assets/favicon.ico" />
-
-    <!-- Bootstrap icons-->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
-
-    <!-- Google fonts-->
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,wght@0,600;1,600&amp;display=swap"
-        rel="stylesheet" />
-    <link
-        href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,300;0,500;0,600;0,700;1,300;1,500;1,600;1,700&amp;display=swap"
-        rel="stylesheet" />
-    <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,400;1,400&amp;display=swap"
-        rel="stylesheet" />
-
-    <!-- Core theme CSS (includes Bootstrap)-->
-    <link type="text/css" href="static/css/styles.css" rel="stylesheet" />
-    <link type="text/css" href="static/css/main.css" rel="stylesheet" />
-
-    <!-- Bootstrap core JS-->
-    <script type="text/javascript" src="static/js/bootstrap.bundle.min.js"></script>
-
-    <!-- For Compatability -->
-    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-    
-    <!-- Markdown -->
-    <script type="text/javascript" src="static/js/marked.min.js"></script>
-
-    <!-- Mathematics -->
-    <script>
-        // See https://docs.mathjax.org/en/latest/index.html for more details.
-        MathJax = {
-            tex: {
-                packages: {},              // extensions to use
-                inlineMath: [              // start/end delimiter pairs for in-line math
-                    ['$', '$'],
-                    ['\\(', '\\)']
-                ],
-                displayMath: [             // start/end delimiter pairs for display math
-                    ['$$', '$$'],
-                    ['\\[', '\\]']
-                ],
-                processEscapes: false,      // use \$ to produce a literal dollar sign
-                processEnvironments: true, // process \begin{xxx}...\end{xxx} outside math mode
-                processRefs: true,         // process \ref{...} outside of math mode
-                digits: /^(?:[0-9]+(?:\{,\}[0-9]{3})*(?:\.[0-9]*)?|\.[0-9]+)/,    // pattern for recognizing numbers
-                tags: 'all',              // or 'ams' or 'all'
-                tagSide: 'right',          // side for \tag macros
-                tagIndent: '0.8em',        // amount to indent tags
-                useLabelIds: true,         // use label name rather than tag for ids
-                maxMacros: 10000,          // maximum number of macro substitutions per expression
-                maxBuffer: 5 * 1024,       // maximum size for the internal TeX string (5K)
-                // baseURL:                   // URL for use with links to tags (when there is a <base> tag in effect)
-                // (document.getElementsByTagName('base').length === 0) ? '' : String(document.location).replace(/#.*$/, ''),
-                formatError:               // function called when TeX syntax errors occur
-                    (jax, err) => jax.formatError(err)
-            }
-        };
-    </script>
-    <script type="text/javascript" id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js"></script>
-    <script type="text/javascript" id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
-    
-    <!-- Core JS-->
-    <script type="text/javascript" src="static/js/scripts.js"></script>
-    <script type="text/javascript" src="static/js/js-yaml.min.js"></script>
-
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Meng Wang's academic homepage">
+  <meta name="author" content="Meng Wang">
+  <title>Meng Wang — Academic Homepage</title>
+  <link rel="icon" type="image/x-icon" href="static/assets/favicon.ico">
+  <link rel="stylesheet" href="stylesheet.css">
 </head>
 
-<body id="page-top">
-    <!-- Navigation-->
-    <nav class="header navbar navbar-expand-lg navbar-light fixed-top shadow-sm" id="mainNav">
-        <div class="container px-5">
-            <a id="page-top-title" class="navbar-brand fw-bold" href="#page-top"></a>
-            <!-- <a href="#page-top"><img src="static/assets/img/CUMT_LOGO.svg" style="width: 11rem;"></a> -->
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
-                aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                MENU
-                <i class="bi-list"></i>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarResponsive">
-                <ul class="navbar-nav ms-auto me-4 my-3 my-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link me-lg-3" href="#page-top">HOME</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link me-lg-3" href="#publications">PUBLICATIONS</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link me-lg-3" href="#awards">AWARDS</a>
-                    </li>
-
-                </ul>
-            </div>
-        </div>
-    </nav>
-
-    <!-- Top Section -->
-    <section class="top-section" style="background-image: url('static/assets/img/background.jpeg');">
-        <div class="top-section-content">
-            <div class="container px-5">
-                <h2 id="top-section-bg-text" class="text-white display-3 lh-1 font-alt"></h2>
-            </div>
-        </div>
+<body>
+  <main class="page-shell">
+    <section class="profile-section" aria-labelledby="profile-name">
+      <div class="profile-copy">
+        <h1 id="profile-name">Meng Wang</h1>
+        <p>
+          Hi 👋, I am currently a postdoctoral researcher at
+          <a href="https://www.hnu.edu.cn/" target="_blank" rel="noreferrer">Hunan University</a>.
+          I received my Ph.D. from the College of Computer Science and Electronic Engineering,
+          Hunan University, in 2025.
+        </p>
+        <p>
+          My research interests include autonomous driving perception, 3D scene perception,
+          semantic scene completion, and robotics. I have served as a reviewer for journals and
+          conferences including TCSVT, TII, TMM, ICLR, AAAI, NeurIPS, ICML, and CVPR.
+        </p>
+        <p class="profile-links" aria-label="External links">
+          <a href="mailto:willem@hnu.edu.cn">Email</a>
+          <span>/</span>
+          <a href="https://github.com/willemeng" target="_blank" rel="noreferrer">GitHub</a>
+          <span>/</span>
+          <a href="#publications-heading">Publications</a>
+        </p>
+      </div>
+      <div class="profile-photo-wrap">
+        <img class="profile-photo" src="static/assets/img/photo.jpg" alt="Portrait of Meng Wang">
+      </div>
     </section>
-    <!-- Top Section -->
 
-    <!-- Photo -->
-    <div class="container px-5">
-        <div id="avatar">
-            <img class="shadow" src="static/assets/img/photo.jpg">
-        </div>
-    </div>
-    <!-- Photo -->
-    
-    <!-- Home -->
-    <section class="bg-gradient-primary-to-secondary-light mt5 md5" id="home">
-        <div class="container px-5">
-            <header>
-                <h2 id="home-subtitle"> </h2>
-                <!-- <span class="bi bi-list"></span> -->
-            </header>
-            <div class="main-body" id="home-md"></div>
-        </div>
+    <section class="content-section" aria-labelledby="news-heading">
+      <h2 id="news-heading">News</h2>
+      <div class="news-list" role="region" aria-labelledby="news-heading" tabindex="0">
+        <div class="news-row"><strong>[02/2026]</strong><span>One paper was accepted by <strong>ACM MM 2026</strong> (CCF-A).</span></div>
+        <div class="news-row"><strong>02/2026</strong><span>One paper was accepted by <strong>CVPR 2026</strong> (CCF-A).</span></div>
+        <div class="news-row"><strong>02/2026</strong><span>I received my <strong>Ph.D.</strong> in Computer Science and Technology.</span></div>
+        <div class="news-row"><strong>09/2025</strong><span>One paper was accepted by <strong>NeurIPS 2025</strong> (CCF-A).</span></div>
+        <div class="news-row"><strong>09/2025</strong><span>One paper was accepted by <strong>KBS 2025</strong> (SCI-1).</span></div>
+        <div class="news-row"><strong>02/2025</strong><span>One paper was accepted by <strong>AAAI 2025</strong> (CCF-A Oral, Top 4.63%).</span></div>
+        <div class="news-row"><strong>01/2025</strong><span>One paper was accepted by <strong>TCSVT 2025</strong> (SCI-1).</span></div>
+        <div class="news-row"><strong>12/2024</strong><span>Selected into the China Association for Science and Technology Young Talent Support Project Doctoral Special Program.</span></div>
+        <div class="news-row"><strong>05/2024</strong><span>One paper was accepted by <strong>TII 2024</strong> (SCI-1).</span></div>
+      </div>
     </section>
-    <!-- Home -->
 
-    <!-- Publications -->
-    <section class="bg-gradient-primary-to-secondary-gray mt5 md5" id="publications">
-        <div class="container px-5">
-            <header>
-                <h2 id="publications-subtitle"><i class="bi bi-file-text-fill"></i>&nbsp;PUBLICATIONS</h2>
-            </header>
-            <div class="main-body" id="publications-md"></div>
+    <section class="content-section" aria-labelledby="publications-heading">
+      <h2 id="publications-heading">Publications</h2>
+      <p class="section-note">* indicates joint first author; † indicates corresponding author</p>
 
+      <article class="publication-row" id="publication-projformer">
+        <div class="publication-copy">
+          <span class="papertitle">ProjFormer: Point Cloud Completion via Geometric-Projective Transformer and Cross-Modal Semantic Constraints</span>
+          <div>Sheng Liu, <strong>Meng Wang†</strong>, Ruihui Li, Huilong Pi, Zhuo Tang, Kenli Li</div>
+          <div><em>ACM International Conference on Multimedia</em> (<strong>MM</strong>), 2026 · <strong>CCF-A</strong></div>
         </div>
+      </article>
+
+      <article class="publication-row" id="publication-stssc">
+        <div class="publication-copy">
+          <span class="papertitle">Learning Spatial-Temporal Consistency for 3D Semantic Scene Completion</span>
+          <div>Yujie Xue, <strong>Meng Wang†</strong>, Ruihui Li†, Fan Wu, Zhizhong Liu, Zhuo Tang, Kenli Li</div>
+          <div><em>IEEE/CVF Conference on Computer Vision and Pattern Recognition</em> (<strong>CVPR</strong>), 2026 · <strong>CCF-A</strong></div>
+        </div>
+      </article>
+
+      <article class="publication-row" id="publication-temporal">
+        <div class="publication-copy">
+          <span class="papertitle">Learning Temporal 3D Semantic Scene Completion via Optical Flow Guidance</span>
+          <div><strong>Meng Wang*</strong>, Fan Wu*, Ruihui Li†, Yunchuan Qin, Zhuo Tang†, Kenli Li</div>
+          <div><em>Advances in Neural Information Processing Systems</em> (<strong>NeurIPS</strong>), 2025 · <strong>CCF-A</strong></div>
+        </div>
+      </article>
+
+      <article class="publication-row" id="publication-vlscene">
+        <div class="publication-copy">
+          <span class="papertitle">VLScene: Vision-Language Guidance Distillation for Camera-based 3D Semantic Scene Completion</span>
+          <div><strong>Meng Wang</strong>, Huilong Pi†, Ruihui Li, Yunchuan Qin, Zhuo Tang†, Kenli Li</div>
+          <div><em>AAAI Conference on Artificial Intelligence</em> (<strong>AAAI</strong>), 2025 · <strong>Oral, CCF-A</strong></div>
+        </div>
+      </article>
+
+      <article class="publication-row" id="publication-cdr">
+        <div class="publication-copy">
+          <span class="papertitle">Vision-based 3D Semantic Scene Completion via Capture Dynamic Representations</span>
+          <div><strong>Meng Wang</strong>, Fan Wu†, Yunchuan Qin, Ruihui Li†, Zhuo Tang, Kenli Li</div>
+          <div><em>Knowledge-Based Systems</em>, 2025 · <strong>SCI-1</strong></div>
+        </div>
+      </article>
+
+      <article class="publication-row" id="publication-mixssc">
+        <div class="publication-copy">
+          <span class="papertitle">MixSSC: Forward-Backward Mixture for Vision-based 3D Semantic Scene Completion</span>
+          <div><strong>Meng Wang</strong>, Yan Ding†, Yumeng Liu†, Yunchuan Qin, Ruihui Li, Zhuo Tang</div>
+          <div><em>IEEE Transactions on Circuits and Systems for Video Technology</em> (<strong>TCSVT</strong>), 2025 · <strong>SCI-1</strong></div>
+        </div>
+      </article>
+
+      <article class="publication-row" id="publication-awdepth">
+        <div class="publication-copy">
+          <span class="papertitle">AWDepth: Monocular Depth Estimation for Adverse Weather via Masked Encoding</span>
+          <div><strong>Meng Wang</strong>, Yunchuan Qin†, Ruihui Li†, Zhizhong Liu, Zhuo Tang, Kenli Li</div>
+          <div><em>IEEE Transactions on Industrial Informatics</em> (<strong>TII</strong>), 2024 · <strong>SCI-1</strong></div>
+        </div>
+      </article>
     </section>
-    <!-- Publications  -->
 
-    <!-- Awards -->
-    <section class="bg-gradient-primary-to-secondary-light mt5 md5" id="awards">
-        <div class="container px-5">
-            <header>
-                <h2 id="awards-subtitle"><i class="bi bi-award-fill"></i>AWARDS </h2>
-            </header>
-            <div class="main-body" id="awards-md"></div>
-
+    <section class="content-section" aria-labelledby="education-heading">
+      <h2 id="education-heading">Education</h2>
+      <div class="timeline-item">
+        <div class="timeline-marker">Ph.D.</div>
+        <div><strong>College of Computer Science and Electronic Engineering, Hunan University</strong><br>
+          <em>2022 – 2025</em><br>
+          Supervisor: <a href="http://csee.hnu.edu.cn/people/likenli" target="_blank" rel="noreferrer">Kenli Li</a> and
+          <a href="http://csee.hnu.edu.cn/people/liruihui" target="_blank" rel="noreferrer">Ruihui Li</a>.
         </div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-marker">M.E.</div>
+        <div><strong>College of Computer Science and Electronic Engineering, Hunan University</strong><br>
+          <em>2020 – 2022</em><br>
+          Supervisor: <a href="http://csee.hnu.edu.cn/people/likenli" target="_blank" rel="noreferrer">Kenli Li</a> and
+          <a href="http://csee.hnu.edu.cn/people/tangzhuo" target="_blank" rel="noreferrer">Zhuo Tang</a>.
+        </div>
+      </div>
     </section>
-    <!-- Awards -->
 
+    <section class="content-section two-column-section" aria-label="Research and service">
+      <div>
+        <h2>Research Interests</h2>
+        <p>Computer Vision, Autonomous Driving, 3D Vision, Depth Estimation, Semantic Scene Completion, and Robotics.</p>
+      </div>
+      <div>
+        <h2>Community Service</h2>
+        <p>Reviewer for TCSVT, TII, TMM, ICLR, AAAI, NeurIPS, ICML, and CVPR.</p>
+      </div>
+    </section>
 
-    <!-- Footer-->
-    <footer class="bg-bottom text-center py-5">
-        <div class="container px-5">
-            <div class="text-white-50 small">
-                <div id="copyright-text" class="mb-2"></div>
-                <a id="github-link" href="https://github.com/senli1073">Github</a>
-                <span class="mx-1">&middot;</span>
-                <a id="license-link" href="https://github.com/senli1073/senli1073.github.io/blob/main/LICENSE">License</a>
-            </div>
-        </div>
+    <section class="content-section" aria-labelledby="awards-heading">
+      <h2 id="awards-heading">Awards &amp; Scholarships</h2>
+      <ul class="award-list">
+        <li>湖南省芙蓉计划青年人才计划, 2026.</li>
+        <li>首届中国科协青年人才托举工程博士生专项计划（中国计算机学会）, 2025.</li>
+        <li>比亚迪奖学金, 2025.</li>
+        <li>湖南省研究生科研创新项目, 2024.</li>
+        <li>XX无人系统组合导航技术研究, 2022.</li>
+        <li>第四届陆上无人系统挑战赛，车载组合导航模块组第二名, 2021.</li>
+      </ul>
+    </section>
+
+    <footer>
+      <p>Updated: September 2026 · Meng Wang · <a href="https://github.com/willemeng/willemeng.github.io">View source on GitHub</a></p>
     </footer>
-
+  </main>
 </body>
-
 </html>

@@ -1,69 +1,31 @@
+# Willem Meng 的个人主页
 
+这是一个纯静态个人主页，页面样式参考 [Kien T. Pham（TK）的个人主页](https://github.com/tkpham3105/tkpham3105.github.io)。页面使用原生 HTML 和 CSS，不需要 Node.js、依赖安装、构建或页面 JavaScript。
 
-![Github Forks](https://img.shields.io/github/forks/senli1073/senli1073.github.io?style=flat)
-![Github Stars](https://img.shields.io/github/stars/senli1073/senli1073.github.io?style=flat)
-![License](https://img.shields.io/github/license/senli1073/senli1073.github.io)
-![Last Commit](https://img.shields.io/github/last-commit/senli1073/senli1073.github.io)
+## 维护页面
 
-# A simple Github Pages template for academic personal website.
+- `index.html`：主页全部内容，包括个人简介、新闻、论文、教育经历、研究兴趣、审稿服务和荣誉。
+- `stylesheet.css`：主页样式。页面内容和样式由这两个文件维护。
+- `static/assets/img/photo.jpg`：个人照片；`static/assets/favicon.ico`：站点图标。
+- `contents/*.md` 和 `contents/config.yml`：旧模板中的原始资料备份，当前主页不会读取这些文件。
+- `static/css/` 和 `static/js/`：旧模板资源，当前主页不会加载。
 
-## Preview
-[![Screenshot of the Website](https://raw.githubusercontent.com/senli1073/senli1073.github.io/main/screenshot_full.png)](https://senli1073.github.io/)
+现有页面保留 7 篇论文、9 条新闻、2 段教育经历、6 条荣誉、研究兴趣和审稿服务。原始资料对博士毕业年份分别记为 2025 年和 2026 年 2 月；该日期存在冲突，页面暂时保留来源中的信息。
 
+## 本地预览
 
-## Introduction
+可直接在浏览器打开 `index.html`。也可以在仓库根目录启动本地 HTTP 服务：
 
-This is an academic personal website template based on [bootstrap](https://github.com/StartBootstrap/startbootstrap-new-age).
-
-The template is designed to integrate Markdown files as content input.  There's no need to compile the webpage before deployment.  Upon loading, the Markdown files are automatically parsed and embedded into the page.
-
-This template supports LaTeX formula input. You can use `$...$` and `\(...\)` as delimiters for inline-math, or use `$$...$$` and `\[...\]` as delimiters for display-math. Macros such as `\ref{...}`, `\eqref{...}`, and `\begin{equation}...\end{equation}` are also supported. See [MathJax](https://docs.mathjax.org/en/latest/index.html) for more details.
-
-:milky_way: Demo: https://senli1073.github.io/
-
-
-## Getting Start
-### 1. Fork this repository
-The repository name should be `<username>.github.io`, which will also be your website's URL.
-
-
-### 2. Edit page content
-
-(1) Go to the folder where you want to store your project, and clone the new repository:
-```
-git clone https://github.com/<username>/<username>.github.io.git
-```
-The directory structure is as follows:
-
-```.
-.
-├── contents
-└── static
-    ├── assets
-    │   └── img
-    ├── css
-    └── js
+```bash
+python -m http.server 8000
 ```
 
-(2) Modify the content of each section, which corresponds to `contents/*.md`.
+然后访问 <http://localhost:8000>。
 
-(3) Adjust the title, copyright information, and other text of the website in `contents/config.yml`
+## 添加论文图片或真实链接
 
-(4) Replace background image and photo with new ones for your web pages in `static/assets/img/`
+当前论文条目没有配图或论文 URL，因此页面没有虚构缩略图或链接。获得真实资源后，可在 `index.html` 中对应论文条目添加图片和链接。图片文件可放入 `static/assets/img/`，并使用相对仓库根目录的路径引用；论文或项目链接应填写可核验的真实 URL。带图片的条目使用 `has-image` 和 `publication-image` class，样式会自动适配桌面端和移动端。
 
-(5) Push it: 
-```
-git commit -am 'init'
-git push
-```
+## 发布
 
-
-### 3. Enjoy
-
-Fire up a browser and go to `https://<username>.github.io`
-
-
-
-## License
-
-Copyright Sen Li, 2023. Licensed under an MIT license. You can copy and mess with this template.
+本仓库适用于 GitHub Pages。将仓库发布为 GitHub Pages 并选择包含 `index.html` 的分支或目录即可；没有构建步骤或生成目录。
