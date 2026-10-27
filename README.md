@@ -4,7 +4,7 @@
 
 ## 维护页面
 
-- `index.html`：主页全部内容，包括个人简介、新闻、论文、教育经历、研究兴趣、审稿服务和荣誉。
+- `index.html`：主页全部内容，包括个人简介、新闻、论文、教育经历、科研项目、研究兴趣、审稿服务和荣誉。
 - `stylesheet.css`：主页样式。页面内容和样式由这两个文件维护。
 - `static/assets/img/photo.jpg`：个人照片；`static/assets/favicon.ico`：站点图标。
 - `contents/*.md` 和 `contents/config.yml`：旧模板中的原始资料备份，当前主页不会读取这些文件。

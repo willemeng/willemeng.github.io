@@ -177,6 +177,36 @@ h2 {
 
 .timeline-marker { padding-top: 1px; color: #555; font-weight: 700; }
 
+.project-list { display: grid; gap: 18px; }
+
+.project-row {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 24px;
+  align-items: start;
+  padding: 0 0 16px;
+  border-bottom: 1px solid var(--border);
+}
+
+.project-row:last-child { padding-bottom: 0; border-bottom: 0; }
+
+.project-main { display: grid; gap: 3px; }
+.project-main strong { color: #333; }
+.project-main span { color: var(--text); }
+
+.project-meta {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 16px;
+  align-items: start;
+  color: #333;
+  white-space: nowrap;
+  text-align: right;
+}
+
+.project-meta strong { color: #c00; }
+
+
 .two-column-section {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -201,5 +231,8 @@ footer p { margin: 0; }
   .news-row { grid-template-columns: 88px minmax(0, 1fr); }
   .publication-row.has-image { grid-template-columns: 1fr; gap: 10px; }
   .publication-image { width: 100%; max-height: 220px; }
+  .project-row { grid-template-columns: 1fr; gap: 8px; }
+  .project-meta { grid-template-columns: auto auto; justify-content: start; text-align: left; }
+  .project-meta time { grid-column: 1 / -1; }
   .two-column-section { grid-template-columns: 1fr; gap: 6px; }
 }
